@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Follower Checker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/pure-min.css">
+  <link rel="stylesheet" href="popup.css">
+  <script type="text/javascript" src="brython.js"></script>
+  <script type="text/javascript" src="brython_stdlib.js"></script>
+</head>
+<body onload="brython()">
+  <div class="header">Instagram Follower Checker</div>
+  <form class="pure-form" onsubmit="return false;">
+    <input type="text" id="username" placeholder="Instagram username"/>
+    <button type="button" id="analyzeBtn" class="pure-button pure-button-primary">Analyze</button>
+    <label><input type="checkbox" id="ignorePublic"> Ignore Public Profiles</label>
+    <label><input type="checkbox" id="ignoreVerified"> Ignore Verified Profiles</label>
+  </form>
+  <div id="results"></div>
+  <script type="text/python" src="main.py"></script>
+</body>
+</html>

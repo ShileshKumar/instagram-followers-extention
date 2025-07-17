@@ -1,0 +1,9 @@
+body { background: #f7f6fc; font-family: 'Segoe UI', Arial, sans-serif; min-width: 340px; }
+.header { color: #833AB4; font-size: 1.4em; padding: 18px; text-align: center; }
+form { margin: 12px 0; padding: 8px 18px; }
+input[type='text'] { width: 67%; margin-right: 7px; }
+#results { margin: 18px; font-size: 1em; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #eee; padding: 7px 10px; }
+th { background: #C13584; color: #fff; }
+tr:nth-child(even) { background: #faf0fd; }
